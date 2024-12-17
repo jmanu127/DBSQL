@@ -52,6 +52,7 @@ int main(int argc, char* argv[]) {
             exit(EXIT_SUCCESS);
         } else {
             printf("Unrecognized command '%s'.\n", input_buffer->buffer);
+
         }
     }
 }
